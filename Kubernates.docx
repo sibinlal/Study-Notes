@@ -1,1 +1,16 @@
 Kubernates is a open source container orchestration platform, which automates the deployment, management and scaling of containerized applications.
+
+
+important commands
+********************
+1. Get pod status
+kubectl get pods
+
+2. Create pod
+kubectl create -f <<pod-definition file>>
+
+3. Get details of pod
+kubectl describe pod <<pod-name>>
+
+4. Delete a pod
+kubectl delete pod <<pod-name>>
